@@ -1,0 +1,113 @@
+/* FAQs Top portion */
+.faq {
+    padding: 5rem;
+}
+
+.faq .faq-font {
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
+.bg{
+    background-color: black;
+}
+
+.faq .faq-below {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.faq .faq-below .faq-hover:hover, .icon:hover {
+    color: yellow;
+}
+
+.icon {
+    color: white;
+}
+
+
+/* FAQs bottom portion */
+.faq-item div img {
+    margin-right: 4px;
+    width: 15px;
+    color: white;
+    background-color: rgb(158, 219, 158);
+    
+}
+
+.faq-item div .text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+
+/* Q & As */
+.faq-item {
+    margin-bottom: -2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.question {
+    font-size: large;
+    color: rgb(77, 76, 76);
+    cursor: pointer;
+    display: flex;
+      align-items: center;
+}
+
+.answer {
+    color: rgb(151, 144, 144);
+    font-size: small;
+    padding: 20px;
+    padding-top: 10px;
+    display: none;
+    margin-top: -1rem;
+}
+
+.answer.show {
+    display: block;
+}
+  
+
+/* Screen Breakpoints */
+@media (max-width:1200px) {
+    .faq-item {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    
+}
+@media (max-width:990px) {
+    .faq-item {
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+    }
+    
+    .faq .faq-font {
+        font-size: 2rem;
+    }
+}
+@media (max-width:760px) {
+    .faq {
+        padding: 3rem;
+    }
+    .faq-item {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+@media (max-width:360px) {
+    .faq-item {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+}
