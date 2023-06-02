@@ -42,10 +42,7 @@
 }
 
 .faq-item div .text {
-    white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 200px;
   }
 
 /* Q & As */
@@ -75,7 +72,11 @@
 .answer.show {
     display: block;
 }
-  
+
+/* About Us */
+.aboutUsCenter {
+    
+}
 
 /* Screen Breakpoints */
 @media (max-width:1200px) {
