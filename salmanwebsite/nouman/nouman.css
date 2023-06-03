@@ -22,6 +22,11 @@
     display: flex;
     justify-content: center;
 }
+.faq-hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
 
 .faq .faq-below .faq-hover:hover, .icon:hover {
     color: yellow;
@@ -85,6 +90,7 @@
     font-size: large;
 }
 .aboutUsCenter .btn {
+    margin-top: 2rem;
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -100,7 +106,7 @@
 
 /* About Us Bottom Portion */
 .aboutUsBottom {
-    margin-top: 8rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -144,9 +150,13 @@
 /* Contact US Portion */
 .contactUsCenter {
     margin-top: 2rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.contactUsCenter h2 {
+    font-size: 2.3rem;
 }
 .contactUsCenter p {
     color: rgb(151, 144, 144);
@@ -159,7 +169,7 @@
 .messageMap {
     display: flex;
     gap: 1rem;
-    margin: 3rem 0rem;
+    /* margin: -3rem 0rem; */
 }
 .messageMap div {
     width: 50%;
@@ -183,6 +193,7 @@
     color: rgb(151, 144, 144);
     font-size: x-small;    
     padding: 8px;
+    width: 25%;
 }
 .messageContainer .inputArea {
     color: rgb(151, 144, 144);
@@ -214,6 +225,7 @@
 }
 .contactUsCards i {
     margin: 1rem;
+    margin-top: 1.5rem;
     font-size: 2rem;
 }
 .contactUsCards .cardsOuter div {
@@ -261,6 +273,15 @@
         margin-right: 3rem;
     }
     /* Cards */
+    .aboutUsBottom {
+        margin-top: 4rem;
+    }
+    .aboutUsBottom h1 {
+        font-size: 1.5rem;
+    }
+    .aboutUsBottom .card h2 {
+        font-size: 1.3rem;
+    }
     .aboutUsBottom .cardRow {
         display: flex;
         flex-direction: column;
@@ -271,6 +292,54 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    /* Contact US Message 760px */
+    .messageMap {
+        flex-direction: column;
+        
+    }
+    .messageMap div {
+        width:90%;
+        margin: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+        
+    }
+    .messageContainer {
+        padding: 4rem;
+        padding-top: 2rem;
+    }    
+    .messageContainer div {
+        margin-left: 0rem;
+        width: 80%;
+    }
+    .messageContainer h2 {
+        font-size: 2rem;
+    }
+    .messageContainer .input {
+        font-size: small;    
+        padding: 12px;
+        width: 25%;
+    }
+    .messageContainer .inputArea {
+        margin: -1rem 0rem;
+        font-size: 0.8rem;
+        height: 8rem;
+    }
+    .messageContainer .btn {
+        font-size: small;
+        padding: 13px;
+        border-radius: 3px;
+    }
+    /* Contact Us Cards */
+    .contactUsCards {
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+    .contactUsCards .cardsOuter {
+        width: 100%;
+    }
+
+
 }
 @media (max-width:360px) {
     .faq-item {
@@ -282,6 +351,51 @@
         margin: 5px;
         margin-top: 4.5rem;
     }
+    .contactUsCenter h2 {
+        font-size: 1.8rem;
+    }
     
+ 
     
+
+    .messageContainer {
+        margin: -1rem;
+        padding: 2rem;
+        /* width: 10%; */
+    }    
+    .messageContainer div {
+        flex-direction: column;
+        width: 100%;
+    }
+    .messageContainer h2 {
+        font-size: 2rem;
+    }
+    .messageContainer .input {
+        font-size: small;    
+        padding: 12px;
+        width: 100%;
+        margin: 8px 0rem;
+    }
+    .messageContainer .inputArea {
+        margin: -1rem 0rem;
+        font-size: 0.8rem;
+        height: 8rem;
+        width: 16rem;
+    }
+    .messageContainer .btn {
+        font-size: small;
+        padding: 13px;
+        border-radius: 3px;
+    }
+
+    iframe {
+        padding: -3rem;
+        margin: 0rem;
+        margin-top: -3rem;
+        margin-right: -6rem;
+        width: 19rem;
+    }
+    .contactUsCards {
+        margin-left: 0rem;
+    }
 }
