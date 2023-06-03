@@ -138,6 +138,102 @@
     text-align: center;
 }
 
+
+
+
+/* Contact US Portion */
+.contactUsCenter {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactUsCenter p {
+    color: rgb(151, 144, 144);
+    font-size: small;    
+    text-align: center;
+    margin-top: 0rem;
+}
+
+/* Message and Map Portion */
+.messageMap {
+    display: flex;
+    gap: 1rem;
+    margin: 3rem 0rem;
+}
+.messageMap div {
+    width: 50%;
+}
+.messageContainer {
+    background-color: #F5F5F5;
+    padding: 2rem;
+}
+.messageContainer p {
+    color: rgb(151, 144, 144);
+    font-size: small;    
+}
+.messageContainer div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.7rem;
+    margin-bottom: -1rem;
+    width: 100%;
+}
+.messageContainer .input {
+    color: rgb(151, 144, 144);
+    font-size: x-small;    
+    padding: 8px;
+}
+.messageContainer .inputArea {
+    color: rgb(151, 144, 144);
+    font-size: x-small;    
+    padding: 8px;
+    width: 100%;
+    height: 4rem;
+    border-color: rgb(226, 223, 223);
+}
+.messageContainer .btn {
+    margin-top: 2rem;
+    padding: 8px;
+    font-size: x-small;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+/* Contact Us Cards */
+.contactUsCards {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.contactUsCards .cardsOuter {
+    display: flex;
+    width: 33%;
+}
+.contactUsCards i {
+    margin: 1rem;
+    font-size: 2rem;
+}
+.contactUsCards .cardsOuter div {
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactUsCards .cardsOuter .cardsContent h2, p {
+    margin-bottom: 0rem;
+}
+.contactUsCards .cardsOuter .cardsContent p {
+    color: rgb(151, 144, 144);
+    font-size: small;    
+}
+.contactUsCards .cardsOuter .cardsContent h5 {
+    margin-top: 0.5rem;
+    color: rgb(151, 144, 144);
+}
+
+
 /* Screen Breakpoints */
 @media (max-width:1200px) {
     .faq-item {
@@ -175,8 +271,6 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-    
-    
 }
 @media (max-width:360px) {
     .faq-item {
